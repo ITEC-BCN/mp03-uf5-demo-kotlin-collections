@@ -54,6 +54,12 @@ fun main() {
     println("Fills de p2: " + p2.fills)
 
     val par3: Parella<String> = Parella("Hola", "Mon")
-    println(par3.ajuntar())
+
+    try {
+        println(par3.ajuntar())
+    }catch(e: Exception){
+        println(e.message)
+    }
+
 
 }
