@@ -26,8 +26,12 @@ kotlin multiplatform
 IntelliJ
 
 # Contingut
+- Tipus genèrics <T>
+- Ús interface Comparable
 - Collection
-- MutableList
-- List
-- Set
-- Map
+- MutableList<>
+- List<>
+- Set<>
+- Map<Key, Value>
+- Queue<>
+- Stack<>
