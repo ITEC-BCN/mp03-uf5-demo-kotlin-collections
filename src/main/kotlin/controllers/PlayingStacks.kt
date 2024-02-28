@@ -4,7 +4,7 @@ import java.util.*
 
 fun main() {
     //Definim la pila (stack)
-    val pila: Stack<Int> =  Stack<Int>()
+    val pila: Stack<Int> = Stack<Int>()
 
     //Afegim elements a la pila
     pila.add(1)

@@ -2,8 +2,8 @@ package controllers
 
 fun main() {
     //Definim la llista i la llista mutable (buida)
-    val llista : List<Int> = listOf(1, 12, 3, 14)
-    val llistaM : MutableList<Int> = mutableListOf()
+    val llista: List<Int> = listOf(1, 12, 3, 14)
+    val llistaM: MutableList<Int> = mutableListOf()
 
     //Recorrem la llista i anem afegint els mateixos elements a la llista mutable
     for (i in llista)
@@ -23,8 +23,8 @@ fun main() {
     println("Tamany de la llista: ${llista.size}")
     println("Conté l'element 12? ${llista.contains(12)}")
     println("Conté l'element 13? ${llista.contains(13)}")
-    println("Conté tots els elements (1,12,3) : ${llista.containsAll(listOf(1,12,3))}")
-    println("Conté tots els elements (1,12,99) : ${llista.containsAll(listOf(1,12,99))}")
+    println("Conté tots els elements (1,12,3) : ${llista.containsAll(listOf(1, 12, 3))}")
+    println("Conté tots els elements (1,12,99) : ${llista.containsAll(listOf(1, 12, 99))}")
     println("Està buida?: ${llista.isEmpty()}")
 
     //Provem les operacions de la llista mutable

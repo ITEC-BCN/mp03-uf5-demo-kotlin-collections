@@ -5,7 +5,7 @@ import java.util.Queue
 
 fun main() {
     //Definim la cua (queue) com una LinkedList
-    val cua : Queue<Int> = LinkedList<Int>()
+    val cua: Queue<Int> = LinkedList<Int>()
 
     //Afegim elements a la cua
     cua.add(1)

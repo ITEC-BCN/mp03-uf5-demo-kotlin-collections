@@ -1,43 +1,17 @@
 package controllers
 
-import java.util.LinkedList
 import java.util.PriorityQueue
-import java.util.Queue
+import models.Alumne
 
-class Alumne: Comparable<Alumne> {
-    private var nom:String
-    private var edat:Int = 0
-    constructor(nom:String, edat:Int) {
-        this.nom = nom
-        this.edat = edat
-    }
-
-
-
-    override fun toString(): String {
-        return "Alumne(nom='$nom', edat=$edat)"
-    }
-    override fun compareTo(other: Alumne): Int {
-        var result : Int
-
-        if (this.edat != other.edat)
-            result = this.edat - other.edat
-        else
-            result = this.nom.compareTo(other.nom)
-
-        return result
-    }
-
-}
 fun main() {
     //Definim la cua amb prioritat
-    val cua : PriorityQueue<Alumne> = PriorityQueue<Alumne>()
+    val cua: PriorityQueue<Alumne> = PriorityQueue<Alumne>()
 
     //Afegim elements a la cua
-    val a1:Alumne = Alumne ("Joan", 20)
-    val a2:Alumne = Alumne ("Joan", 18)
-    val a3:Alumne = Alumne ("Pep", 18)
-    val a4:Alumne = Alumne ("Maria", 25)
+    val a1: Alumne = Alumne("Joan", 20)
+    val a2: Alumne = Alumne("Joan", 18)
+    val a3: Alumne = Alumne("Pep", 18)
+    val a4: Alumne = Alumne("Maria", 25)
     cua.add(a1)
     cua.add(a2)
     cua.add(a3)
@@ -49,7 +23,7 @@ fun main() {
     //Treiem un element de la cua
     println("Treiem un element de la cua: ${cua.poll()}")
     println("Contingut de la cua: ${cua.toString()}")
-    val a5:Alumne = Alumne ("Pau", 22)
+    val a5: Alumne = Alumne("Pau", 22)
     cua.add(a5)
     println("Contingut de la cua: ${cua.toString()}")
 

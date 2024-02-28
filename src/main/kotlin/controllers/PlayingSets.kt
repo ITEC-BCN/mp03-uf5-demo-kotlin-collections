@@ -2,8 +2,8 @@ package controllers
 
 fun main() {
     //Definim el conjunt (set) i el conjunt mutable (buit)
-    val set : Set<Int> = setOf(1, 12, 3, 14, 7, 7, 7)
-    val setM : MutableSet<Int> = mutableSetOf()
+    val set: Set<Int> = setOf(1, 12, 3, 14, 7, 7, 7)
+    val setM: MutableSet<Int> = mutableSetOf()
 
     //Recorrem el set i anem afegint els mateixos elements al set mutable
     for (i in set)
@@ -21,8 +21,8 @@ fun main() {
     println("Tamany de el set: ${set.size}")
     println("Conté l'element 12? ${set.contains(12)}")
     println("Conté l'element 13? ${set.contains(13)}")
-    println("Conté tots els elements (1,12,3) : ${set.containsAll(listOf(1,12,3))}")
-    println("Conté tots els elements (1,12,99) : ${set.containsAll(listOf(1,12,99))}")
+    println("Conté tots els elements (1,12,3) : ${set.containsAll(listOf(1, 12, 3))}")
+    println("Conté tots els elements (1,12,99) : ${set.containsAll(listOf(1, 12, 99))}")
     println("Està buit?: ${set.isEmpty()}")
 
     //Provem les operacions del set mutable

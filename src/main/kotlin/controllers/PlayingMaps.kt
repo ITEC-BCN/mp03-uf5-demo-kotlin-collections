@@ -2,12 +2,12 @@ package controllers
 
 fun main() {
     //Definim el mapa (map) i el mapa mutable (buit)
-    val mapa : Map<Int,String> = mapOf(1 to "Un", 2 to "Dos", 3 to "Tres")
-    val mapaM : MutableMap<Int,String> = mutableMapOf()
+    val mapa: Map<Int, String> = mapOf(1 to "Un", 2 to "Dos", 3 to "Tres")
+    val mapaM: MutableMap<Int, String> = mutableMapOf()
 
     //Recorrem el set i anem afegint els mateixos elements al set mutable
     for (i in mapa)
-        mapaM.put(i.key,i.value)
+        mapaM.put(i.key, i.value)
 
     //Afegim un element al set mutable. Si ho intentem sobre el set, donaria error
     mapaM.put(999, "nou-cents noranta-nou")
@@ -29,12 +29,12 @@ fun main() {
 
     //Provem les operacions del set mutable
     println("Contingut del set mutable: ${mapaM.toString()}")
-    mapaM.put(77,"setanta-set");mapaM.put(77,"setanta-set repetit");
-    mapaM.putIfAbsent(78,"setenta-vuit");mapaM.putIfAbsent(78,"setanta-vuit repetit");
+    mapaM.put(77, "setanta-set");mapaM.put(77, "setanta-set repetit");
+    mapaM.putIfAbsent(78, "setenta-vuit");mapaM.putIfAbsent(78, "setanta-vuit repetit");
     println("Nou contingut del set mutable: ${mapaM.toString()}")
     mapaM.remove(3)
     println("Nou contingut del set mutable: ${mapaM.toString()}")
-    mapaM.replace(78,"seventy eight")
+    mapaM.replace(78, "seventy eight")
     println("Nou contingut del set mutable: ${mapaM.toString()}")
     mapaM[78] = "setenta y ocho"
     println("Nou contingut del set mutable: ${mapaM.toString()}")

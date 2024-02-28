@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9a300f7-4fec-4249-9c2c-83914452f0c6" name="Changes" comment="chore: first commit">
+    <list default="true" id="f9a300f7-4fec-4249-9c2c-83914452f0c6" name="Changes" comment="fix: add try-catch in Generics.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/Alumne.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/Parella.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/Personatge.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/Generics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/Generics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingLists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingLists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingMaps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingMaps.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingPriorityQueues.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingPriorityQueues.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingQueues.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingQueues.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingSets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingSets.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingStacks.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/PlayingStacks.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +26,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +55,12 @@
     "Gradle.Build mp03-uf5-demo-kotlin-collections.executor": "Run",
     "Kotlin.GenericsKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.PlayingListsKt.executor": "Run",
+    "Kotlin.PlayingMapsKt.executor": "Run",
     "Kotlin.PlayingPriorityQueuesKt.executor": "Run",
+    "Kotlin.PlayingQueuesKt.executor": "Run",
+    "Kotlin.PlayingSetsKt.executor": "Run",
+    "Kotlin.PlayingStacksKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -57,16 +79,9 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.GenericsKt">
-    <configuration name="GenericsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controllers.GenericsKt" />
-      <module name="Demo-Abstract-Polimorfisme.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controllers.MainKt" />
+  <component name="RunManager" selected="Kotlin.PlayingStacksKt">
+    <configuration name="PlayingMapsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controllers.PlayingMapsKt" />
       <module name="Demo-Abstract-Polimorfisme.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +94,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayingQueuesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controllers.PlayingQueuesKt" />
+      <module name="Demo-Abstract-Polimorfisme.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayingSetsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controllers.PlayingSetsKt" />
+      <module name="Demo-Abstract-Polimorfisme.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayingStacksKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controllers.PlayingStacksKt" />
+      <module name="Demo-Abstract-Polimorfisme.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.GenericsKt" />
+        <item itemvalue="Kotlin.PlayingStacksKt" />
+        <item itemvalue="Kotlin.PlayingSetsKt" />
+        <item itemvalue="Kotlin.PlayingQueuesKt" />
         <item itemvalue="Kotlin.PlayingPriorityQueuesKt" />
-        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.PlayingMapsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -111,11 +149,20 @@
       <option name="project" value="LOCAL" />
       <updated>1709107167735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix: add try-catch in Generics.kt">
+      <option name="closed" value="true" />
+      <created>1709108011850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709108011850</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: first commit" />
+    <MESSAGE value="fix: add try-catch in Generics.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add try-catch in Generics.kt" />
   </component>
 </project>
