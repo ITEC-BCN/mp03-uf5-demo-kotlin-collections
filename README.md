@@ -1,5 +1,5 @@
 # Intro
-Projecte de demostració d'ús de **Programació Orientada a Objectes** per **MP03-UF4**.
+Projecte de demostració d'ús de **Colleccions** en Kotlin per **MP03-UF5**.
 
 # Llenguatge
 kotlin multiplatform
@@ -8,8 +8,8 @@ kotlin multiplatform
 IntelliJ
 
 # Contingut
-- Classes i mètodes **abstractes**
-- **Herència**
-- Diferents **modificadors d'accés** per gestionar l'encapsulació
-- **Poliformisme**
-- **Documentació dokka**
+- Collection
+- MutableList
+- List
+- Set
+- Map
